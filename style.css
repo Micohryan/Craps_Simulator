@@ -1,0 +1,34 @@
+* {box-sizing: border-box}
+
+body{
+    font-family:monospace;
+    background:green;
+    color:white
+}
+
+.scene{
+    width:200px;
+    height:200px;
+    margin:20px;
+    perspective:600px;
+}
+
+.cube {
+    width:200px;
+    height: 200px;
+    position: relative;
+    transform-style:preserve-3d;
+    transform: translateZ(-100px);
+    transition: transform 1s;
+}
+
+.cube_face{
+    position:absolute;
+    width:200px;
+    height: 200px;
+    border: 2px solid black;
+    line-height:200px;
+    font-size:4px;
+    font-weight: bold;
+    text-align: center;
+}
