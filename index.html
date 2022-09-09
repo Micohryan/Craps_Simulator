@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2> Craps game </h2>
-    <p> click on button to roll </p>
+    <p id = "bankroll"></p>
     <div class = "background">
         <div class = "cube cube-1" data-roll ="1" > 
             <div class = "cube_face cube_face_1">1</div>
@@ -23,6 +23,9 @@
             <div class = "cube_face cube_face_5">5</div>
             <div class = "cube_face cube_face_6">6</div>
         </div>
+        <label id="demo" for = "bet">Please enter a Bet</label>
+        <input type ="number" id = "bet" name = "bet">
+        <button type = "button" class = "submitBtn">Submit</button>
         <button type = "button" class = "rollBtn">roll the dice</button>
         <script src = "cube.js"></script>
     </div>
