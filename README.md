@@ -1,1 +1,1 @@
-# Simple-Calc
+Craps Simulator
